@@ -87,6 +87,7 @@ const onClickItem = (e) => {
   }
 };
 
+// on clicking an item li we change to edit mode
 const setItemToEdit = (item) => {
   isEditMode = true;
   itemList
@@ -154,6 +155,7 @@ const filterItems = (e) => {
   });
 };
 
+// Event listeners
 itemForm.addEventListener("submit", addItemSubmit);
 itemList.addEventListener("click", onClickItem);
 clearAllBtn.addEventListener("click", clearAllItems);
