@@ -59,7 +59,7 @@ header h1 {
 
 /* Buttons */
 .btn {
-  background-color: #333;
+  background-color: green;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -68,7 +68,7 @@ header h1 {
 }
 
 .btn:hover {
-  background-color: green;
+  background-color: rgb(4, 92, 4);
 }
 
 .btn-link {
